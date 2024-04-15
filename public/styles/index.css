@@ -1,4 +1,10 @@
 body {
   display: flex;
-  height: 100vh;
+  flex-direction: column;
+  background-color: #c8c4c4;
+  cursor: url(../images/cursor.cur), auto;
+}
+
+main {
+  display: flex;
 }

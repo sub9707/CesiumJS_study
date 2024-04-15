@@ -4,10 +4,11 @@ aside {
   padding: 0.5em;
 }
 
-.sidebar ul {
-  list-style: none;
+.tree-view {
+  height: 95vh;
   padding: 0;
   margin: 0;
+  overflow-y: scroll;
 }
 
 .sidebar ul li {

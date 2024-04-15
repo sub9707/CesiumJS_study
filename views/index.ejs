@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://unpkg.com/98.css" />
   </head>
   <body>
-    <%- include('sidebar') %>
+    <%- include("titleBar", {title: "시험용 타이틀"}) %>
     <main>
+      <%- include('sidebar') %>
       <article>
         <h2>Post Title</h2>
         <p>This is the content of the blog post.</p>
